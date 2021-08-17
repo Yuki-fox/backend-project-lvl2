@@ -1,0 +1,31 @@
+{
+  "name": "@hexlet/code",
+  "version": "1.0.0",
+  "description": "[![Actions Status](https://github.com/Yuki-fox/backend-project-lvl2/workflows/hexlet-check/badge.svg?branch=)](https://github.com/Yuki-fox/backend-project-lvl2/actions?query=branch:)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Yuki-fox/backend-project-lvl2.git"
+  },
+  "bin": {
+    "gendiff": "bin/gendiff.js"
+  },
+  "type": "module",
+  "author": "Yuki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Yuki-fox/backend-project-lvl2/issues"
+  },
+  "homepage": "https://github.com/Yuki-fox/backend-project-lvl2#readme",
+  "devDependencies": {
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.24.0"
+  },
+  "dependencies": {
+    "commander": "^8.1.0"
+  }
+}
